@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #dddcd6; }
+
+header {
+  grid-area: header;
+  background-color: #d4cab8; }
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  nav ul li {
+    list-style-type: none; }
+    nav ul li a {
+      text-decoration: none;
+      padding: 20px;
+      color: white; }
+
+.bienvenidos {
+  grid-area: main;
+  padding: 10px;
+  color: #4f421a;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.contacto {
+  grid-area: tituloContacto;
+  color: #4f421a;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
+.nosotros {
+  grid-area: nosotros;
+  color: #4f421a;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.historiaTitulo {
+  color: #4f421a;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
+main {
+  grid-area: productos; }
+  main .productos {
+    grid-area: productos;
+    color: #4f421a;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.servicios {
+  grid-area: main; }
+
+.catering {
+  margin-left: 520px; }
+
+.tituloServicios {
+  color: #4f421a;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.videoPan {
+  grid-area: video;
+  margin-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.croissan {
+  grid-area: croissan;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%; }
+
+.carousel {
+  grid-area: carousel; }
+
+.manosContacto {
+  grid-area: manos;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.historia1 {
+  grid-area: historia1;
+  align-items: center; }
+
+.row {
+  grid-area: row;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px; }
+
+.col {
+  padding: 10px; }
+
+img, p {
+  width: 100%;
+  margin-top: 10px; }
+
+.servicioPan {
+  grid-area: servicioPan;
+  width: 100%; }
+
+.picada {
+  grid-area: picada;
+  margin-top: 10px;
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.contactoForm {
+  grid-area: formulario;
+  margin-bottom: 50px; }
+
+footer {
+  grid-area: footer;
+  padding: 60px;
+  background-color: #6e6a61;
+  margin-top: 10px; }
+  footer .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer .redes .icono {
+      width: 48px;
+      height: 48px;
+      padding: 5px; }
+
+.grillasGeneral {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "header    header    header" "carousel  carousel  carousel" "video     main      main" "croissan  croissan  croissan" "footer    footer    footer"; }
+
+.grillasContacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "header           header          header" "manos            manos           manos" "tituloContacto   tituloContacto  tituloContacto" "formulario       formulario      formulario" "footer           footer          footer"; }
+
+.grillaProductos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "header           header       header" ".                productos    ." "row              row          row" "footer           footer       footer"; }
+
+.grillaServicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "header           header          header" "servicioPan      servicioPan     servicioPan" "picada           picada          main" "footer           footer          footer"; }
+
+.grillaNosotros {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "header           header          header" "nosotros         nosotros        nosotros" ".                historia1       ." "footer           footer          footer"; }
+
+@media screen and (max-width: 786px) {
+  .grillasGeneral {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header    header" "carousel  carousel" "main      main" "video     video" "croissan  croissan" "footer    footer"; } }
+
+@media screen and (max-width: 786px) {
+  .grillaProductos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header           header" "productos        productos" "row              row" "footer           footer"; } }
+
+@media screen and (max-width: 786px) {
+  .grillaServicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header           header" "servicioPan      servicioPan" "main             main" "picada           picada" "footer           footer"; } }
+
+@media screen and (max-width: 786px) {
+  .grillaNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header           header" "nosotros         nosotros" "historia1        historia1" "footer           footer"; } }

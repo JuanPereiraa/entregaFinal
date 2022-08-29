@@ -1,0 +1,17 @@
+
+footer{
+    grid-area: footer;
+    padding: 60px;
+    background-color:$colorFooter;
+    margin-top: 10px;
+    .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .icono{
+    width: 48px;
+    height: 48px; ;
+    padding: 5px;
+    }
+        }
+}

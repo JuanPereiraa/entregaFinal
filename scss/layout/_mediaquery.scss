@@ -1,0 +1,48 @@
+.grillasGeneral{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header    header    header"
+    "carousel  carousel  carousel"
+    "video     main      main"
+    "croissan  croissan  croissan"
+    "footer    footer    footer";}
+
+.grillasContacto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header           header          header"
+    "manos            manos           manos"
+    "tituloContacto   tituloContacto  tituloContacto"
+    "formulario       formulario      formulario"
+    "footer           footer          footer";}
+
+.grillaProductos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header           header       header"
+    ".                productos    ."
+    "row              row          row"
+    "footer           footer       footer";}
+
+
+.grillaServicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header           header          header"
+    "servicioPan      servicioPan     servicioPan"
+    "picada           picada          main"
+    "footer           footer          footer"}
+
+
+.grillaNosotros{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header           header          header"
+    "nosotros         nosotros        nosotros"
+    ".                historia1       ."
+    "footer           footer          footer";}

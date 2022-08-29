@@ -1,0 +1,13 @@
+.row {
+    grid-area: row;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px; }
+  
+  .col {
+    padding: 10px; }
+  
+  img, p {
+    width: 100%;
+    margin-top: 10px; }

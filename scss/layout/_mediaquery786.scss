@@ -1,0 +1,55 @@
+@media screen and (max-width:786px){
+    .grillasGeneral{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header    header"
+        "carousel  carousel"
+        "main      main"
+        "video     video"
+        "croissan  croissan"
+        "footer    footer";
+    
+    }
+    }
+
+    @media screen and (max-width:786px){
+        .grillaProductos{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas: 
+            "header           header"
+            "productos        productos"
+            "row              row"
+            "footer           footer";
+        
+        }
+    
+    }
+    
+    @media screen and (max-width:786px){
+    .grillaServicios{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header           header"
+        "servicioPan      servicioPan"
+        "main             main"
+        "picada           picada"
+        "footer           footer"
+        }
+    }
+    
+    @media screen and (max-width:786px){
+    .grillaNosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "header           header"
+        "nosotros         nosotros"
+        "historia1        historia1"
+        "footer           footer";
+    
+        }
+    }
+

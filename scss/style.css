@@ -1,0 +1,150 @@
+header {
+  grid-area: header;
+  background-color: #d4cab8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddcd6;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+.bienvenidos {
+  grid-area: main;
+  padding: 10px;
+  color: #4f421a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.videoPan {
+  grid-area: video;
+  margin-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.croissan {
+  grid-area: croissan;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.carousel {
+  grid-area: carousel;
+}
+
+.manosContacto {
+  grid-area: manos;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.contacto {
+  grid-area: tituloContacto;
+  color: #4f421a;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contactoForm {
+  grid-area: formulario;
+  margin-bottom: 50px;
+}
+
+main {
+  grid-area: productos;
+}
+
+main .productos {
+  grid-area: productos;
+  color: #4f421a;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.row {
+  grid-area: row;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.col {
+  padding: 10px;
+}
+
+img, p {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.servicios {
+  grid-area: main;
+}
+
+.catering {
+  margin-left: 520px;
+}
+
+.tituloServicios {
+  color: #4f421a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.servicioPan {
+  grid-area: servicioPan;
+  width: 100%;
+}
+
+.picada {
+  grid-area: picada;
+  margin-top: 10px;
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nosotros {
+  grid-area: nosotros;
+  color: #4f421a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.historiaTitulo {
+  color: #4f421a;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.historia1 {
+  grid-area: historia1;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
