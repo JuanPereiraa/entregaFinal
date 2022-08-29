@@ -182,3 +182,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "header           header" "nosotros         nosotros" "historia1        historia1" "footer           footer"; } }
+
+@media screen and (max-width: 786px) {
+  .grillasContacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "header           header" "manos            manos" "tituloContacto   tituloContacto" "formulario       formulario" "footer           footer"; } }
